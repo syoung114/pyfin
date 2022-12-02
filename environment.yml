@@ -1,22 +1,31 @@
 name: pyfin
 channels:
+  - conda-forge
   - defaults
 dependencies:
   - _libgcc_mutex=0.1=main
   - _openmp_mutex=5.1=1_gnu
   - bzip2=1.0.8=h7b6447c_0
-  - ca-certificates=2022.07.19=h06a4308_0
-  - certifi=2022.6.15=py310h06a4308_0
+  - ca-certificates=2022.9.24=ha878542_0
+  - certifi=2022.9.24=pyhd8ed1ab_0
   - ld_impl_linux-64=2.38=h1181459_1
+  - libblas=3.9.0=15_linux64_openblas
+  - libcblas=3.9.0=15_linux64_openblas
   - libffi=3.3=he6710b0_2
   - libgcc-ng=11.2.0=h1234567_1
+  - libgfortran-ng=12.2.0=h69a702a_19
+  - libgfortran5=12.2.0=h337968e_19
   - libgomp=11.2.0=h1234567_1
+  - liblapack=3.9.0=15_linux64_openblas
+  - libopenblas=0.3.20=pthreads_h78a6416_0
   - libstdcxx-ng=11.2.0=h1234567_1
   - libuuid=1.0.3=h7f8727e_2
   - ncurses=6.3=h5eee18b_3
-  - openssl=1.1.1q=h7f8727e_0
+  - numpy-financial=1.0.0=pyhd8ed1ab_0
+  - openssl=1.1.1s=h7f8727e_0
   - pip=22.1.2=py310h06a4308_0
   - python=3.10.4=h12debd9_0
+  - python_abi=3.10=2_cp310
   - readline=8.1.2=h7f8727e_1
   - setuptools=63.4.1=py310h06a4308_0
   - sqlite=3.39.2=h5082296_0
@@ -49,6 +58,7 @@ dependencies:
     - multitasking==0.0.11
     - numpy==1.23.3
     - oauthlib==3.2.1
+    - pandas-datareader==0.10.0
     - pluggy==1.0.0
     - py==1.11.0
     - pyasn1==0.4.8

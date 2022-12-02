@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: overlay_timeframe",
+            "type": "python",
+            "request": "launch",
+            "program": "overlay_timeframe.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "args": [
+                "AMD",
+                "01-01-2020",
+                "01-01-2021",
+                "01-01-2000"
+            ]
+        }
+    ]
+}
